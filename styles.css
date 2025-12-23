@@ -189,7 +189,7 @@ img {
 }
 
 .btn-primary:hover {
-    background-color: #d35400;
+    background-color: var(--green-color);
     transform: translateY(-2px);
 }
 
@@ -272,7 +272,7 @@ img {
     display: block;
     width: 80px;
     height: 4px;
-    background-color: var(--primary-color);
+    background-color: var(--green-color);
     margin: 10px auto 0;
     border-radius: 2px;
 }
@@ -361,6 +361,8 @@ img {
     background: linear-gradient(135deg, var(--secondary-color) 0%, #34495e 100%);
     color: var(--white);
     text-align: center;
+    border-top: 5px solid var(--green-color);
+    border-bottom: 5px solid var(--primary-color);
 }
 
 .contact-box {
@@ -392,6 +394,14 @@ img {
     padding: 20px 40px;
     border-radius: 10px;
     backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: var(--transition);
+}
+
+.contact-item:hover {
+    background: rgba(255, 255, 255, 0.2);
+    border-color: var(--primary-color);
+    transform: translateY(-5px);
 }
 
 .contact-item .icon {
@@ -436,6 +446,7 @@ img {
     text-align: center;
     padding: 20px 0;
     font-size: 0.9rem;
+    border-top: 3px solid var(--green-color);
 }
 
 /* Animations */
