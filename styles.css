@@ -3,8 +3,8 @@
     /* Orange */
     --secondary-color: #2c3e50;
     /* Dark Blue/Grey */
-    --green-color: #27ae60;
-    /* Recycling Green */
+    --green-color: #25D366;
+    /* WhatsApp Green */
     --accent-color: #f1c40f;
     /* Yellow */
     --text-color: #333;
@@ -66,7 +66,7 @@
     box-shadow: var(--shadow);
     height: 250px;
     transition: var(--transition);
-    border: 3px solid var(--white);
+    border: 3px solid var(--green-color);
     position: relative;
 }
 
@@ -231,7 +231,7 @@ img {
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
     transform: rotate(-2deg);
     transition: var(--transition);
-    border: 4px solid rgba(255, 255, 255, 0.1);
+    border: 4px solid var(--green-color);
 }
 
 .business-card:hover {
@@ -288,6 +288,7 @@ img {
 .service-image {
     height: 200px;
     overflow: hidden;
+    border-bottom: 3px solid var(--green-color);
 }
 
 .service-image img {
@@ -353,6 +354,7 @@ img {
     border-radius: 10px;
     overflow: hidden;
     box-shadow: var(--shadow);
+    border: 3px solid var(--green-color);
 }
 
 /* Contact Section */
