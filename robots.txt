@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://liorsal.github.io/asher/sitemap.xml
